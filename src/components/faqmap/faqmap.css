@@ -4,32 +4,35 @@
     color: white;
 }
 
-/* @font-face {
+@font-face {
     font-family: newerfont;
     src: url(/src/StrangerThings-Regular.ttf);
-} */
+}
 
 .roadmap-control {
     background-color: black;
     background-size: cover;
-    padding-bottom: 50px;
-    padding-top: 50px;
+    padding-bottom: 0px;
+    padding-top: 0px;
     background-color: #FFE1C9;
-    color: black;
+    color: white;
+    margin-bottom: 100px;
+    margin-top: 50px;
 }
 
 .roadmap-control header {
     font-style: italic;
     font-size: 40px;
-    font-weight: 900;
+    font-weight: 700;
     color: rgb(0, 0, 0);
     margin-bottom: 20px;
-    color: black;
+    color: #88CDDB;
+    font-family: newerfont;
 }
 
 .roadmap-description {
     font-size: 18px;
-    color: black;
+    color: white;
     font-weight: 900;
 }
 

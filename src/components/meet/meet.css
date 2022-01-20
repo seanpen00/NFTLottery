@@ -1,9 +1,9 @@
 .meet-control {
     padding-top: 40px;
     padding-bottom: 60px;
-    background-image: url("../../assets/wood.jpg");
+    background-image: url("../../assets/background.png");
     background-size: cover;
-    
+
     /* background-color: #FFE1C9; */
 }
 
@@ -43,11 +43,12 @@
 }
 
 .caroImg {
-    border: solid black 10px;
-    border-radius: 20px;
+    /* border: solid black 10px; */
+    border-radius: 0px;
+    /* background-color: black; */
 }
 
-.slide-arrows a{
+.slide-arrows a {
     cursor: pointer;
     background-color: #c8ff00;
     display: flex;

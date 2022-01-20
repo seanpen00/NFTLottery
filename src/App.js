@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
+import React, { Suspense, useEffect } from "react";
 
 //import components
 import Header from './components/header/header';
@@ -11,31 +12,60 @@ import TopItems from './components/top-items/top-items';
 import Mint from './components/mint/mint';
 import About from './components/about/about';
 import Meet from './components/meet/meet';
+import NewTeam from './components/newteam/newteam';
+import NewRoadMap from './components/newroadmap/newroadmap';
 import FounderThing from './components/founderthing/founderthing';
-import il from './assets/CenterPic.png';
-import NavBar from './components/navbar/navbar';
-import './assets/newStyle.css';
 import FaqMap from './components/faqmap/faqmap';
+// import il from './assets/CenterPic.png';
+import './assets/newStyle.css';
+// import Team from './components/team/team';
 
-function App() {
-  return (
-    <div>
-      {/* <NavBar /> */}
-      <Header />
-      {/* <img className="thePicture" src={il}/> */}
-      <About />
-      <Meet />
-      
-      <Mint />
-      {/* <TopItems /> */}
-      <RoadMap />
-      {/* <FounderThing /> */}
-      <Team />
-      {/* <JoinCommunity /> */}
-      <FaqMap />
-      <Footer />
-    </div>
-  );
+class App extends React.Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      isLoading: true
+    };
+  }
+
+  componentDidMount(){
+    this.timerID = setTimeout(
+      () => this.clearBackGround(),
+      0
+    );
+  }
+
+  clearBackGround = () => {
+    this.setState({
+      isLoading: false
+    });
+  }
+  render(){
+    return (
+      this.state.isLoading?
+      <div className='black-bg'>
+      </div>:
+      <div >
+        <Header />
+        <About />
+        {/* <Meet /> */}
+        
+        <Mint />
+        <RoadMap />
+        {/* <NewRoadMap /> */}
+        {/* <FounderThing /> */}
+        {/* <JoinCommunity /> */}
+
+        {/* <TopItems /> */}
+        <FaqMap />
+        <Team />
+        {/* <NewTeam /> */}
+        <Footer />
+      </div>
+    );
+  }
+  
 }
 
 export default App;

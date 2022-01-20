@@ -1,8 +1,16 @@
 .about-control {
-    background-image: linear-gradient(to bottom right, #ffffff, white);
+    background-image: url(../../assets/background.png);
     padding-top: 60px;
     padding-bottom: 60px;
     font-weight: 900;
+    margin-left: 2px;
+    margin-right: 2px;
+
+}
+
+@font-face {
+    font-family: casinofont;
+    src: url(../../assets/fonts/Poppins-ExtraLight.ttf);
 }
 
 .image-control img {
@@ -16,16 +24,18 @@
 }
 
 .about-description header {
-    font-size: 50px;
+    font-size: 60px;
     line-height: 50px;
-    color: #000000;
-    font-style: italic;
+    color: #88CDDB;
+    /* font-style: none; */
     font-weight: 900;
     margin-bottom: 10px;
+    margin-top: 20px;
+    font-family: casinofont;
 }
 
 .about-description p {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 .about-description p span {
@@ -33,7 +43,28 @@
 }
 
 .about-description header span {
-    color: #000000;
+    color: #ffffff;
 }
 
+@media (min-width: 767px) {
+    .about-control {
+        background-image: url(../../assets/background.png);
+        padding-top: 60px;
+        padding-bottom: 60px;
+        font-weight: 900;
+        margin: 0px;
+    
+    }
+
+    .about-description header {
+        font-size: 50px;
+        line-height: 50px;
+        color: #88CDDB;
+        /* font-style: none; */
+        font-weight: 900;
+        margin-bottom: 10px;
+        font-family: casinofont;
+    }
+
+}
 

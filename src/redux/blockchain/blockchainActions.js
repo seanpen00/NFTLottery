@@ -49,10 +49,10 @@ export const connect = () => {
           method: "net_version",
         });
         // const NetworkData = await SmartContract.networks[networkId];
-        if (networkId == 4) { // IMPORTANT. ONCE YOUR CONTRACT IS ON THE MAIN NET, SWITCH THIS NUMBER TO 1.
+        if (networkId == 1) { // IMPORTANT. ONCE YOUR CONTRACT IS ON THE MAIN NET, SWITCH THIS NUMBER TO 1.
           const SmartContractObj = new Web3EthContract(
             SmartContract,
-            "0x6C243F70eEE0Fb472553012f58754C9BfE5238B0" // **IMPORTANT** PASTE CONTRACT ADDRESS HERE
+            "0x7181d2038B849A18145eb153b8bEFC552e52c37A" // **IMPORTANT** PASTE CONTRACT ADDRESS HERE
           );
           dispatch(
             connectSuccess({

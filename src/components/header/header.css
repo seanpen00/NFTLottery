@@ -1,15 +1,14 @@
 .header-control {
     /* background-image: url('../../assets/DickBackground.png'); */
-    /* background-color: pink; */
+    /* background-color: #172A55; */
     /* this can be changed to header-back or dickbackground */
-    /* background-image: url('../../assets/wood.jpg');
-     */
+    background-color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     position: relative;
-    /* padding-top: 20px; */
+    padding-top: 20px;
     padding-bottom: 20px;
     height: 120px;
     background-repeat: repeat;
@@ -18,28 +17,46 @@
 }
 
 .header-control .navbar {
-    width: 100%;
-    background-color: #00000041;
+    width: 60%;
+    background-color: #000000;
     margin-top: 0px;
     padding-top: 0px;
-    /* border-radius: 20px; */
-    /* border: solid black 10px; */
+    border-radius: 20px;
+    /* border: solid #E8B331 10px; */
     /* outline: 5px solid black; */
     /* box-shadow: 0 0 0 3px rgb(0, 0, 0); */
+    border: solid 1px #ae31e8;
 }
 
 .navbar-nav {
     display: flex;
     align-items: center;
 }
-.navbar-nav .nav-link{
-    color: white!important;
-    font-size: 30px;
-    /* font-weight: 700; */
+
+.navbar-nav .nav-link {
+    transition-duration: .4s;
+    color: rgb(255, 255, 255) !important;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: newerfont;
+    background: -webkit-linear-gradient(#ffffff, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition-duration: .4s;
 }
 
-.navbar-nav .nav-link:hover{
-    color: #009CCC !important;
+@font-face {
+    font-family: newerfont;
+    src: url(/src/StrangerThings-Regular.ttf);
+}
+
+.navbar-nav .nav-link:hover {
+    transition-duration: .4s;
+    color: #88CDDB !important;
+    background: -webkit-linear-gradient(rgb(195, 0, 255), rgb(255, 0, 179));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition-duration: .4s;
 }
 
 .header-content {
@@ -51,22 +68,17 @@
 
 @font-face {
     font-family: newfont;
-    src: url(/src/newfont.ttf);
-}
-
-@font-face {
-    font-family: newerfont;
-    src: url("https://github.com/seanpen00/cryptotwerps/blob/main/src/aAtmospheric.ttf?raw=true");
+    src: url(/src/ReporterRegular.ttf);
 }
 
 .header-content h1 {
     font-size: 51px;
-    font-family: newerfont;
+    font-family: newfont;
     color: black;
     /* font-style: italic; */
     margin-bottom: 30px;
     margin-top: 30px;
-    /* font-weight: 900; */
+    font-weight: 900;
     text-align: center;
     /* background-color: #6D3612; */
     /* padding: 25px; */
@@ -86,10 +98,12 @@
 
 .nav-item {
     margin-right: 20px;
-    color: white;
+    color: rgb(184, 40, 40);
     font-size: 13px;
+    font-weight: 700;
     cursor: pointer;
 }
+
 .nav-item :hover {
     color: blue;
 }
@@ -97,50 +111,47 @@
 .thePicture {
     height: 0px;
     border: solid #632006 0px;
-    border-radius: 20px;
+    border-radius: 0px;
     padding: 0px;
     background-color: #FF9859;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (min-width: 767px) {
     .header-control {
-        background-image: url('../../assets/wood.jpg');
+        /* background-image: url('../../assets/OPENSEA_Banner.png'); */
+        background-color: black;
         /* this can be changed to header-back or dickbackground */
-        /* background-color: red; */
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
         position: relative;
         /* padding-top: 20px; */
-        padding-bottom: 20px;
-        height: 500px;
-        background-repeat: repeat;
-        background-position: 100% 40%;
+        /* padding-bottom: 20px; */
+        height: 700px;
+        background-repeat: none;
+        background-position: 0% -20%;
+        margin-bottom: 50px;
     }
 
     .thePicture {
-        height: 250px;
-        border: solid rgb(255, 255, 255)
-         10px;
-        box-shadow: 0px 0px 100px white;
+        height: 500px;
+        width: 1100px;
+        border: solid white 10px;
         border-radius: 20px;
-        padding: 0px;
         background-color: #a14912;
+        box-shadow: 0px 0px 50px #b600c7;
+    }
+
+    .header-control .navbar {
+        width: 70%;
+        background-color: #000000;
+        margin-top: 0px;
+        padding-top: 0px;
+        border-radius: 20px;
+        border: none;
+        /* border: solid #E8B331 10px; */
+        /* outline: 5px solid black; */
+        /* box-shadow: 0 0 0 3px rgb(0, 0, 0); */
     }
 }

@@ -28,7 +28,12 @@ class RoadMapItem extends React.Component {
                 </div>
                 <Collapse in={this.state.open}>
                     <div id="example" className='collapse-content'>
-                        {this.props.content}
+                        <p>{this.props.content}</p>
+                        <p>{this.props.content2}</p>
+                        <p>{this.props.content3}</p>
+                        <p>{this.props.content4}</p>
+                        <p>{this.props.content5}</p>
+                        <p>{this.props.content6}</p>
                     </div>
                 </Collapse>
             </div>

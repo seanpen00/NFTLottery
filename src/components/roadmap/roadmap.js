@@ -3,10 +3,10 @@ import { Col, Container, Row } from "react-bootstrap";
 
 //import CSS
 import './roadmap.css';
+import NewRoadMap from '../newroadmap/newroadmap';
 
 //import Assets
 import roadmap from '../../assets/Roadmap.mp4';
-import twerp from '../../assets/team/5.jpeg'
 
 //import Component
 import RoadMapItem from "./roadmapitem";
@@ -16,70 +16,86 @@ class RoadMap extends React.Component {
         this.state = {
             roadmaps: [
                 {
-                    tag: '0%',
-                    title: "Community Giveaways",
-                    content: "More than 25 Crypto Twerps will be given away to early community members, as well as to those who participate in contests on Twitter and Discord, and for creating memes and other art with their Twerps."
+                    tag: 'Phase 1',
+                    title: "Giveaways & Partnerships",
+                    content: "We will host initial giveaways and partner with other projects, as well as influencers to provide the most value to our community."
                 },
                 {
-                    tag: '25%',
-                    title: "ETH Giveaways",
-                    content: "20 random Crypto Twerps owners will be chosen and they’ll receive 1ETH each in their wallet."
+                    tag: 'Phase 2',
+                    title: "Giveaways & Giveaways",
+                    content: "Most people simply can’t afford a $10k, $50k, $150k or even a $250k+ NFT.",
+                    content2: "So, NFT Raffles will be essential for the community"
                 },
                 {
-                    tag: '50%',
-                    title: "Community Wallet Setup + ETH Giveaway",
-                    content: "We will fund the community wallet with 20 ETH. The Twerpy community will decide what the funds will be used for, including purchasing NFTs from other collections to raffle among Crypto Twerps owners. We will also raffle ETH."
+                    tag: 'Phase 3',
+                    title: "Giveaways & Partnerships",
+                    content: "You guessed it! We're going to focus on giving back to our community and growing our network to keep bringing the value in."
                 },
                 {
-                    tag: '75%',
-                    title: "ETH Giveaway",
-                    content: "1 Lucky winner will randomly be chosen to be transfered 2 ETH"
+                    tag: 'Phase 4',
+                    title: "VIP Pass Launch On Opensea",
+                    content: "The first NFT posted will be a 1/10,000 original The NFT Lottery (VIP PASS) That will be sold directly on the Opensea.io page for .04 ETH + gas",
+                    content2: "VIP Pass holders receive $Lottery tokens representing the fractional shares of NFTs held in the community vault. Members also get exclusive access to the DAO community, giveaways and voting rights over the DAO's assets. Join The NFT Lottery now, and Moon with us."
                 },
                 {
-                    tag: '100%',
-                    title: "Community Wallet, Airdrops, Giveaway",
-                    content: "20 random Crypto Twerps will be chosen, and their wallets sent 1ETH each.\nCommunity Wallet will be funded with 20 ETH.\nSpecial Edition 2nd Collection will be airdropped to all holders.\nThe Twerp community will help us decide on our second big project (NFT Gaming)."
+                    tag: 'Phase 5',
+                    title: "Giveaways & $Lottery Token Implementation",
+                    content: "Have you ever played in a lottery? Well if you have you know they are fun and exciting. They combine three features which opens the gaming experience to almost everyone. Lottery is not only cheap and highly affordable, lottery tickets are pliable and transparent.",
+                    content2: "Affordable: The usual price for a lottery ticket is between .01 - .1 ETH",
+                    content3: "Scalable: Customers can buy multiple tickets with several different number combinations to increase their chances to win.",
+                    content4: "Transparent: Everything’s on the blockchain which allows everyone to know who won and when.",
+                    content5: "Once the utility token is launched, as a VIP Pass holder, you won't need to do anything to start earning $Lottery."
                 },
+                {
+                    tag: 'Phase 6',
+                    title: "Giveaways & Snapshot Voting Integration",
+                    content: "Snapshot: Shortly after launch, we will set up our voting platform on snapshop.org, allowing holders to vote and introduce their own proposals. The following are the requirements to pass a snapshot vote NFT Purchases (Minimum of 3 hours, need a minimum of 20% of holders to respond) Non-NFT-Purchase related (24 Hours to vote)."
+                },
+                {
+                    tag: 'Phase 7',
+                    title: "VIP Community Votes On Fractionalized Art For Vault",
+                    content: "Official voting will take place within the community Discord, The community will be able to vote on which NFTs they want to start a raffle for. Remember to get verified. You must be a verified holder in-order to get access to the vip section.",
+                    content2: "Staking Roadmap: After the minting period, we will immediately start working on setting up the staking platform. All our blue-chip purchases will be transferred to a fractional vault."
+                },
+                {
+                    tag: 'Phase 8',
+                    title: "First Series Of Raffles On Opensea (no gas fees)",
+                    content: "The community will be able to vote on which NFTs they want to start a raffle for."
+                }
             ]
         }
     }
 
     render() {
         return (
-            <div className='roadmap-control' id='roadmap' style={{ textAlign: "center" }}>
-                <Container style={{ backgroundColor: "white", opacity: 1, padding: 30, border: "solid black 10px", borderRadius: 20 }}>
-                    <h1 style={{fontWeight: 900, fontStyle: "italic"}}>Roadmap</h1>
+            <div className='roadmap-control' id='roadmap' style={{ paddingTop: 50, paddingBottom: 50, marginLeft: 2, marginRight: 2 }}>
+                <Container style={{ backgroundColor: "black", padding: 30, border: "solid white 10px", borderRadius: 20, textAlign: "center", boxShadow: "0px 0px 50px #b600c7" }}>
+                    <header style={{ fontWeight: 900, color: "purple", fontSize: 80 }}><span>THE NFT LOTTERY</span> <br /> ROADMAP</header>
                     <p className='roadmap-description'>
-                    Quality comes first. We strive to provide quality artwork, community, and value to our Twerps. The underdogs will rise again. We are focused on organic community growth over time to ensure everyone involved is active and engaged. It is important to us to drive social change with this project and avoid the pitfalls of many of the projects launching.
-                    <br/>
-                    <br/>
-                        <ul>
-                            <li>Our foremost commitment is delivering value to our community members, in doing so we're prioritizing the artwork and continuous Metaverse development.</li>
-                            <li>We want our original supporters to feel the prosperity. Don’t underestimate the underdog.</li>
-                            <li>When sold out there will be an announcement for a new free + gas NFT accessible exclusively for holders, first and foremost.</li>
-                            <li>Meanwhile, we’ll be integrating with a number of the largest projects and metaverses currently active on The ethereum network.</li>
-                            <li>Crypto Twerp holders will be rewarded the most throughout our journey together.</li>
-                        </ul>
-                        <br/>
-                    Welcome to the fam you Twerps!
+                        Welcome to the NFT Lottery Community.<br/>Get ready to go to the MOON!
                     </p>
-                    <Row style={{ alignContent: "center", justifyContent: "center", textAlign: "center" }}>
-                        <Col xs={12} md={6}>
-                            <img  className="roadimage"style={{border:"solid 0px black", borderRadius: 20, height:600,}}src={"https://raw.githubusercontent.com/seanpen00/cryptotwerps/main/newgif.gif"}/>
-                        </Col>
-                        <Col style={{ color: "white", alignContent: "center", justifyContent: "center", textAlign: "center" }}>
+                    {/* <img  className="roadimage"style={{border:"solid 5px black", borderRadius: 20}}src="https://github.com/DeadBanditz/banditzsite/blob/main/src/assets/wood.png?raw=true" /> */}
+                    <Row style={{ paddingTop: 30}}>
+                        <Col style={{ color: "white"}}>
                             {
                                 this.state.roadmaps.map((item, index) => {
                                     return (
-                                        <RoadMapItem style={{ textAlign: "center", color: "black" }} key={index}
+                                        <RoadMapItem style={{color: "black" }} key={index}
                                             tag={item.tag}
                                             title={item.title}
-                                            content={item.content} />
+                                            content={item.content}
+                                            content2={item.content2}
+                                            content3={item.content3}
+                                            content4={item.content4}
+                                            content5={item.content5}
+                                            content6={item.content6}
+                                        />
                                     );
                                 })
                             }
                         </Col>
                     </Row>
+                    <NewRoadMap />
                 </Container>
             </div>
 
