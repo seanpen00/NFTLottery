@@ -19,44 +19,44 @@ class Team extends React.Component {
         this.state = {
             teams: [
                 {
-                    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Question_Mark.svg/2560px-Question_Mark.svg.png",
-                    title: 'Founder',
-                    name: "Lorem Ipsum"
+                    image: "https://seanpen00.github.io/NFTLottery/static/media/thegif.9aed54cd.gif",
+                    title: 'Ideator',
+                    name: "Brandom (ooZ)"
                 },
                 {
-                    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Question_Mark.svg/2560px-Question_Mark.svg.png",
-                    title: 'Co-Founder',
-                    name: "Lorem Ipsum"
+                    image: "https://seanpen00.github.io/NFTLottery/static/media/thegif.9aed54cd.gif",
+                    title: 'Marketing',
+                    name: "Chris & Brando"
                 },
                 {
-                    image: "https://raw.githubusercontent.com/DeadBanditz/banditzsite/main/src/assets/topitems/2.jpg",
-                    title: 'Blockchain & Web3',
-                    name: "Metaverse Sean"
+                    image: "https://seanpen00.github.io/NFTLottery/static/media/thegif.9aed54cd.gif",
+                    title: 'Smart Contract',
+                    name: "Sean"
                 },
                 {
-                    image: "https://raw.githubusercontent.com/DeadBanditz/banditzsite/main/src/assets/topitems/4.jpg",
-                    title: 'Graphic Designer & Artist',
-                    name: "Buck Carson"
+                    image: "https://seanpen00.github.io/NFTLottery/static/media/thegif.9aed54cd.gif",
+                    title: 'Smart Contract',
+                    name: "Hamza"
                 }, 
                 {
-                    image: "https://raw.githubusercontent.com/DeadBanditz/banditzsite/main/src/assets/topitems/8.jpg",
-                    title: 'Blockchain Genius',
-                    name: "Clay Bowie"
+                    image: "https://seanpen00.github.io/NFTLottery/static/media/thegif.9aed54cd.gif",
+                    title: 'Community Manager',
+                    name: "Anthony"
                 },
                 {
-                    image: "https://raw.githubusercontent.com/DeadBanditz/banditzsite/main/src/assets/topitems/6.jpg",
-                    title: 'Marketing & Community Manager',
-                    name: "Hot Fire Barrelz"
+                    image: "https://seanpen00.github.io/NFTLottery/static/media/thegif.9aed54cd.gif",
+                    title: 'Community Manager',
+                    name: "Alex"
                 },
                 {
-                    image: "https://raw.githubusercontent.com/DeadBanditz/banditzsite/main/src/assets/topitems/7.jpg",
-                    title: 'Discord Manager',
-                    name: "Colt Cassidy"
+                    image: "https://seanpen00.github.io/NFTLottery/static/media/thegif.9aed54cd.gif",
+                    title: 'Community Manager',
+                    name: "Ricardo"
                 }, 
                 {
-                    image: "https://raw.githubusercontent.com/DeadBanditz/banditzsite/main/src/assets/topitems/5.jpg",
-                    title: 'Financial Operations',
-                    name: "Jackknife Jones"
+                    image: "https://seanpen00.github.io/NFTLottery/static/media/thegif.9aed54cd.gif",
+                    title: 'Community Manager',
+                    name: "Nick"
                 }
             ]
         }
@@ -83,7 +83,7 @@ class Team extends React.Component {
                             />
                         </Col>
                     </Row> 
-                    {/* <Row>
+                    <Row>
                         <Col className="team-control-card" md={4} xs={12} >
                             <TeamMember
                                 imageUrl={this.state.teams[2].image}
@@ -126,7 +126,7 @@ class Team extends React.Component {
                                 name={this.state.teams[7].name}
                             />
                         </Col>
-                    </Row>  */}
+                    </Row> 
                 </Container>
             </div>
         );

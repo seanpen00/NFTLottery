@@ -2,67 +2,106 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 
 //import CSS
-import './faqmap.css';
+import "./faqmap.css";
 
 //import Assets
-import roadmap from '../../assets/Roadmap.mp4';
+import roadmap from "../../assets/Roadmap.mp4";
 
 //import Component
 import RoadMapItem from "./faqmapitem";
 class RoadMap extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            roadmaps: [
-                {
-                    tag: '1',
-                    title: "What is OpenSea?",
-                    content: "Opensea is a game-changing decentralized commercial center for purchasing and selling NFTs. In case you're wondering, NFTs represents Non-Fungible Tokens, which are one of a kind, collectible advanced ded above and beyond $3entities like in-game resources, symbols, trading cards, and workmanship. In August 2021 alone, OpenSea recorded above and beyond $3.5 billion in NFT exchanging volume. Considering it posted just $21 million in volume during all of 2020, most would agree the 12,000% exchanging action rise immovably flags achievement."
-                },
-                {
-                    tag: '2',
-                    title: "When does minting go live?",
-                    content: "The NFT Lottery will be available for mint at a date yet to be determined."
-                },
-                {
-                    tag: '3',
-                    title: "How much will lottery tickets be?",
-                    content: "The usual price for a lottery ticket is between .01 - .1 ETH."
-                },
-                {
-                    tag: '4',
-                    title: "How do I become a VIP?",
-                    content: "Members may look to the community Discord for steps to verify themselves as an owner of the original The NFT Lottery VIP."
-                }
-            ]
-        }
-    }
+  constructor(props) {
+    super(props);
+    this.state = {
+      roadmaps: [
+        {
+          tag: "1",
+          title: "What is an NFT?",
+          content:
+            'An NFT stands for "Non-fungible token" and is a fancy way of saying it\'s a unique, one of a kind digital item that users can buy, own, and trade. Some NFTs main purpose is to be digital art. However, some like Gray Boys offer additional utility like exclusive access to a DAO, member only content, access to events & community, and more. Think of Gray Boys like a rare piece of digital art that also acts as a "members" card.',
+        },
+        {
+          tag: "2",
+          title: "What's a DAO?",
+          content:
+            "A DAO stands for \"Decentralized Autonomous Organization\". It's an organization controlled by its members and governed by rules written into a smart contract on the blockchain. The Mothership DAO is controlled by its members and used to purchase metaverse NFTs through voting done by members. The DAO grants proxied ownership of The Mothership's acquired NFTs to its members, and more. It does not provide liquidity benefits and therefore is not at risk of being considered a security.",
+        },
+        {
+          tag: "3",
+          title: "What is Metamask?",
+          content:
+            "Metamask is a crypto wallet that can store your Ethereum and is needed to purchase and mint NFTs. Having a wallet gives you an Ethereum address (i.e. 0xABCD....1234), this is where your NFT will be stored. You can get Metamask and learn more here: https://metamask.io/",
+        },
+        {
+          tag: "4",
+          title: "How do I join the community?",
+          content:
+            "You can go to our Discord (link is at the top of the page).",
+        },
+        {
+          tag: "4",
+          title: "Which blockchain will the VIP Pass be launched?",
+          content: "Etherium.",
+        },
+        {
+          tag: "4",
+          title: "How much is it to mint TheNFTLottery Vip Pass?",
+          content: ".05 ETH + Gas.",
+        },
+        {
+          tag: "4",
+          title: "Where do VIP Pass holders vote?",
+          content:
+            "Shortly after launch, we will set up our voting platform on snapshop.org, allowing verified holders to vote and even introduce their own proposals.",
+        },
+        {
+          tag: "4",
+          title: "Where will the raffles take place?",
+          content:
+            "Raffles - Eth/Polygon Network Polygon (Matic) blockchain to avoid Ethereum gas fees & to remain on the largest platform, Opensea.io ",
+        },
+        {
+          tag: "4",
+          title: "How do raffles work?",
+          content:
+            "Smart contract capability allows us to use NFTs as a form of a raffle system. You along with others will own shares to an individual NFT, once all shares are owned the listed reward will randomly be distributed to the lucky winner. All others will lose that NFT from their wallet & are welcome to join another ongoing raffle.",
+        },
+      ],
+    };
+  }
 
-    render() {
-        return (
-            <div className='roadmap-control' id='roadmap' style={{ backgroundColor: "black", backgroundImage: "none" }}>
-                <Container style={{ backgroundColor: "black"}}>
-                    <header style={{fontStyle: "normal", color:"white", textAlign: "center" }}><span></span> <br/> FAQ's</header>
-                    <Row style={{ paddingTop: 0}}>
-                        <Col>
-                            {
-                                this.state.roadmaps.map((item, index) => {
-                                    return (
-                                        <RoadMapItem style={{ color: "black" }} key={index}
-                                            tag={item.tag}
-                                            title={item.title}
-                                            content={item.content}
-                                             />
-                                    );
-                                })
-                            }
-                        </Col>
-                    </Row>
-                </Container>
-            </div>
-
-        );
-    }
+  render() {
+    return (
+      <div
+        className="roadmap-control"
+        id="roadmap"
+        style={{ backgroundColor: "black", backgroundImage: "none" }}
+      >
+        <Container style={{ backgroundColor: "black" }}>
+          <header
+            style={{ fontStyle: "normal", color: "white", textAlign: "center" }}
+          >
+            <span></span> <br /> FAQ's
+          </header>
+          <Row style={{ paddingTop: 0 }}>
+            <Col>
+              {this.state.roadmaps.map((item, index) => {
+                return (
+                  <RoadMapItem
+                    style={{ color: "black" }}
+                    key={index}
+                    tag={item.tag}
+                    title={item.title}
+                    content={item.content}
+                  />
+                );
+              })}
+            </Col>
+          </Row>
+        </Container>
+      </div>
+    );
+  }
 }
 
 export default RoadMap;

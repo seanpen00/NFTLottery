@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/NFTLottery/static/css/main.c4ef2da4.chunk.css",
-    "main.js": "/NFTLottery/static/js/main.c5b3714f.chunk.js",
-    "main.js.map": "/NFTLottery/static/js/main.c5b3714f.chunk.js.map",
+    "main.css": "/NFTLottery/static/css/main.7bd7f04f.chunk.css",
+    "main.js": "/NFTLottery/static/js/main.9422ea44.chunk.js",
+    "main.js.map": "/NFTLottery/static/js/main.9422ea44.chunk.js.map",
     "runtime-main.js": "/NFTLottery/static/js/runtime-main.63a5b215.js",
     "runtime-main.js.map": "/NFTLottery/static/js/runtime-main.63a5b215.js.map",
     "static/css/2.71f93bf9.chunk.css": "/NFTLottery/static/css/2.71f93bf9.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.f7b976ef.chunk.js.map": "/NFTLottery/static/js/3.f7b976ef.chunk.js.map",
     "index.html": "/NFTLottery/index.html",
     "static/css/2.71f93bf9.chunk.css.map": "/NFTLottery/static/css/2.71f93bf9.chunk.css.map",
-    "static/css/main.c4ef2da4.chunk.css.map": "/NFTLottery/static/css/main.c4ef2da4.chunk.css.map",
+    "static/css/main.7bd7f04f.chunk.css.map": "/NFTLottery/static/css/main.7bd7f04f.chunk.css.map",
     "static/js/2.1f30c1b6.chunk.js.LICENSE.txt": "/NFTLottery/static/js/2.1f30c1b6.chunk.js.LICENSE.txt",
     "static/media/Chibi Labs.1df3a3d3.jpeg": "/NFTLottery/static/media/Chibi Labs.1df3a3d3.jpeg",
     "static/media/Collection_GIF.c7a8697a.gif": "/NFTLottery/static/media/Collection_GIF.c7a8697a.gif",
@@ -47,7 +47,7 @@
     "static/js/runtime-main.63a5b215.js",
     "static/css/2.71f93bf9.chunk.css",
     "static/js/2.1f30c1b6.chunk.js",
-    "static/css/main.c4ef2da4.chunk.css",
-    "static/js/main.c5b3714f.chunk.js"
+    "static/css/main.7bd7f04f.chunk.css",
+    "static/js/main.9422ea44.chunk.js"
   ]
 }

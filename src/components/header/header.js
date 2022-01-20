@@ -52,7 +52,7 @@ class Header extends React.Component {
                     <Navbar collapseOnSelect expand="lg">
                         <Container>
                             <Navbar.Brand href="#home">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Question_Mark.svg/2560px-Question_Mark.svg.png" width={100} height={100} alt='logo' />
+                                <img style={{border: "solid white 5px", boxShadow: "0px 0px 25px #b600c7", borderRadius: "10px"}}src="https://seanpen00.github.io/NFTLottery/static/media/thegif.9aed54cd.gif" width={100} height={100} alt='logo' />
                             </Navbar.Brand>
                             <Navbar.Toggle aria-controls="responsive-navbar-nav" style={{backgroundColor: "white"}}/>
                             <Navbar.Collapse id="responsive-navbar-nav" >
@@ -76,7 +76,7 @@ class Header extends React.Component {
 
                                     <text style={{ width: 20 }}></text>
                                     <div>
-                                        <a style={{ textDecoration: "none", color: "white", paddingLeft: 10 }} target="_blank" rel="noopener noreferrer" href="https://discord.gg/pWz7MPb6Sj"> <BsDiscord size={32} />   </a>
+                                        <a style={{ textDecoration: "none", color: "white", paddingLeft: 10 }} target="_blank" rel="noopener noreferrer" href="https://discord.com/invite/pWz7MPb6Sj"> <BsDiscord size={32} />   </a>
                                     </div>
                                     {/* <a href="https://google.com/"><YButton text='OPENSEA' /></a>
                                     </Nav.Link> */}

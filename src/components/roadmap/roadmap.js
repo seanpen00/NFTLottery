@@ -17,50 +17,36 @@ class RoadMap extends React.Component {
             roadmaps: [
                 {
                     tag: 'Phase 1',
-                    title: "Giveaways & Partnerships",
-                    content: "We will host initial giveaways and partner with other projects, as well as influencers to provide the most value to our community."
+                    title: "Project Launch",
+                    content: "- Giveaways & Partnerships",
+                    content2: "- VIP Pass launch on Ethereum",
+                    content3: "- Snapshot voting integration",
+                    content4: "10 lucky winners of 1 ETH each will be rewarded during the minting process. The 1 ETH rewards will be given to the original original wallets of mint numbers: #1000, #2000, #3000, #4000, #5000, #6000, #7000, #8000, #9000, #10000 (*Must be Metamask*)",
+                    content5: "Lucky mint number #7777 will be rewarded 2ETh"
+                    
                 },
                 {
                     tag: 'Phase 2',
-                    title: "Giveaways & Giveaways",
-                    content: "Most people simply can’t afford a $10k, $50k, $150k or even a $250k+ NFT.",
-                    content2: "So, NFT Raffles will be essential for the community"
+                    title: "First set of community votes",
+                    content: "- Voting on what to purchase to fractionalize. ",
+                    content1: "- Vote to sweep floor, raising value.",
+                    content2: "- Vote on utility token specifics that will be to reward holders.",
+                    content3: "- Vote for additional giveaways. ",
                 },
                 {
                     tag: 'Phase 3',
-                    title: "Giveaways & Partnerships",
-                    content: "You guessed it! We're going to focus on giving back to our community and growing our network to keep bringing the value in."
+                    title: "Team Building & Partnerships ",
+                    content: "Marketing Campaign",
+                    content2: "Partnership announcements ",
+                    content3: "Partnership giveaways ",
+                    content4: "Team Member Expansion",
                 },
                 {
                     tag: 'Phase 4',
-                    title: "VIP Pass Launch On Opensea",
-                    content: "The first NFT posted will be a 1/10,000 original The NFT Lottery (VIP PASS) That will be sold directly on the Opensea.io page for .04 ETH + gas",
-                    content2: "VIP Pass holders receive $Lottery tokens representing the fractional shares of NFTs held in the community vault. Members also get exclusive access to the DAO community, giveaways and voting rights over the DAO's assets. Join The NFT Lottery now, and Moon with us."
-                },
-                {
-                    tag: 'Phase 5',
-                    title: "Giveaways & $Lottery Token Implementation",
-                    content: "Have you ever played in a lottery? Well if you have you know they are fun and exciting. They combine three features which opens the gaming experience to almost everyone. Lottery is not only cheap and highly affordable, lottery tickets are pliable and transparent.",
-                    content2: "Affordable: The usual price for a lottery ticket is between .01 - .1 ETH",
-                    content3: "Scalable: Customers can buy multiple tickets with several different number combinations to increase their chances to win.",
-                    content4: "Transparent: Everything’s on the blockchain which allows everyone to know who won and when.",
-                    content5: "Once the utility token is launched, as a VIP Pass holder, you won't need to do anything to start earning $Lottery."
-                },
-                {
-                    tag: 'Phase 6',
-                    title: "Giveaways & Snapshot Voting Integration",
-                    content: "Snapshot: Shortly after launch, we will set up our voting platform on snapshop.org, allowing holders to vote and introduce their own proposals. The following are the requirements to pass a snapshot vote NFT Purchases (Minimum of 3 hours, need a minimum of 20% of holders to respond) Non-NFT-Purchase related (24 Hours to vote)."
-                },
-                {
-                    tag: 'Phase 7',
-                    title: "VIP Community Votes On Fractionalized Art For Vault",
-                    content: "Official voting will take place within the community Discord, The community will be able to vote on which NFTs they want to start a raffle for. Remember to get verified. You must be a verified holder in-order to get access to the vip section.",
-                    content2: "Staking Roadmap: After the minting period, we will immediately start working on setting up the staking platform. All our blue-chip purchases will be transferred to a fractional vault."
-                },
-                {
-                    tag: 'Phase 8',
-                    title: "First Series Of Raffles On Opensea (no gas fees)",
-                    content: "The community will be able to vote on which NFTs they want to start a raffle for."
+                    title: "Tokenomics & Fractionalizing Art ",
+                    content: "- Token utility implementation",
+                    content2: "- Airdrop to Hodlers.",
+                    content3: "- VIP Community votes on fractionalized art for Vault"
                 }
             ]
         }
@@ -95,7 +81,7 @@ class RoadMap extends React.Component {
                             }
                         </Col>
                     </Row>
-                    <NewRoadMap />
+                    {/* <NewRoadMap /> */}
                 </Container>
             </div>
 
