@@ -18,13 +18,13 @@ class RoadMap extends React.Component {
           tag: "1",
           title: "What is an NFT?",
           content:
-            'An NFT stands for "Non-fungible token" and is a fancy way of saying it\'s a unique, one of a kind digital item that users can buy, own, and trade. Some NFTs main purpose is to be digital art. However, some like Gray Boys offer additional utility like exclusive access to a DAO, member only content, access to events & community, and more. Think of Gray Boys like a rare piece of digital art that also acts as a "members" card.',
+            'An NFT stands for "Non-fungible token" and is a fancy way of saying it\'s a unique, one of a kind digital item that users can buy, own, and trade. Some NFTs main purpose is to be digital art. However, NFTs can be much more than that. TheNFTLottery offers additional utility such as exclusive access to a DAO, member only content, access to ongoing raffles and giveaways. It’s more of a system, designed to give even the average newcomer a chance to win something life changing. Little risk. High reward.',
         },
         {
           tag: "2",
           title: "What's a DAO?",
           content:
-            "A DAO stands for \"Decentralized Autonomous Organization\". It's an organization controlled by its members and governed by rules written into a smart contract on the blockchain. The Mothership DAO is controlled by its members and used to purchase metaverse NFTs through voting done by members. The DAO grants proxied ownership of The Mothership's acquired NFTs to its members, and more. It does not provide liquidity benefits and therefore is not at risk of being considered a security.",
+            "A DAO stands for \"Decentralized Autonomous Organization\". It's an organization controlled by its members and governed by rules written into a smart contract on the blockchain. TheNFTLottery DAO is controlled by its members and used to purchase metaverse NFTs through voting done by members. The DAO grants proxied ownership of TheNFTLottery's acquired NFTs to its members, and more. It does not provide liquidity benefits and therefore is not at risk of being considered a security.",
         },
         {
           tag: "3",
@@ -41,7 +41,7 @@ class RoadMap extends React.Component {
         {
           tag: "4",
           title: "Which blockchain will the VIP Pass be launched?",
-          content: "Etherium.",
+          content: "Ethereum.",
         },
         {
           tag: "4",
@@ -52,13 +52,13 @@ class RoadMap extends React.Component {
           tag: "4",
           title: "Where do VIP Pass holders vote?",
           content:
-            "Shortly after launch, we will set up our voting platform on snapshop.org, allowing verified holders to vote and even introduce their own proposals.",
+            "Shortly after launch, we will set up our voting platform on snapshop.org, allowing verified holders to vote and even introduce their own proposals. There’s also a VIP SECTION in the community discord only accessible to verified VIP Pass holders.",
         },
         {
           tag: "4",
           title: "Where will the raffles take place?",
           content:
-            "Raffles - Eth/Polygon Network Polygon (Matic) blockchain to avoid Ethereum gas fees & to remain on the largest platform, Opensea.io ",
+          "Raffles will be hosted on OpenSea and will be on the Polygon Matic blockchain to reduce fees.",
         },
         {
           tag: "4",

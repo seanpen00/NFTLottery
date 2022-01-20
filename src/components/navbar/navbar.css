@@ -12,7 +12,7 @@
 .dashboard-bar .inner-dashboard-bar {
     justify-content: space-between;
     margin: 0 auto;
-    max-width: 1320px;
+    max-width: 800px;
     padding: 0 12px;
 }
 
@@ -61,7 +61,7 @@
     flex-flow: row wrap;
     overflow: hidden;
     align-items: stretch;
-    max-width: 1320px;
+    max-width: 800px;
 }
 .mega-menu.show {
     opacity: 1;

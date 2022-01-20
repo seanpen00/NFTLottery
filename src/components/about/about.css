@@ -2,6 +2,7 @@
     background-color: #000000;
     padding-top: 60px;
     padding-bottom: 60px;
+    
 }
 
 .image-control img {
@@ -12,6 +13,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    /* max-width: 80%; */
 }
 
 .about-description header {

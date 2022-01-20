@@ -18,13 +18,14 @@ class About extends React.Component {
             borderRadius: 20,
           }}
         >
-          <Row>
-            <Col
-              md={6}
+          {/* <Row> */}
+            {/* <Col */}
+              {/* md={6}
               xs={12}
-              className="about-description"
-              style={{ textAlign: "center" }}
-            >
+              
+            > */}
+            <text className="about-description"
+              style={{ textAlign: "center" }}>
               <header style={{ color: "#E8B331", textAlign: "center" }}>
                 <span style={{ color: "white" }}>THE NFT LOTTERY</span>
                 <br />
@@ -59,8 +60,7 @@ class About extends React.Component {
                 <br />
                 NFT Raffles:
                 <br />
-                70% of all ongoing remaining raffle royalties, after rewards are
-                transferred to the winners, goes directly into the community DAO
+                After rewards are transferred to the winners, 70% of all ongoing raffle royalties will go directly into the community DAO. Forever.
                 <br />
                 Where the community can vote which NFTs to fractionalize as a
                 family.
@@ -75,15 +75,16 @@ class About extends React.Component {
                 Polygon (Matic) blockchain to avoid Ethereum gas fees &<br/>
                 remaining on Opensea.
               </p>
-            </Col>
-            <Col md={6} xs={12} className="image-control">
+              </text>
+            {/* </Col> */}
+            {/* <Col md={6} xs={12} className="image-control">
               <img
                 style={{ border: "solid black 10px", borderRadius: 20 }}
                 src={AboutGif}
                 alt="about gif"
               />
-            </Col>
-          </Row>
+            </Col> */}
+          {/* </Row> */}
         </Container>
       </div>
     );

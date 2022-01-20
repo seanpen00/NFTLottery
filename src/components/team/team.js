@@ -5,7 +5,13 @@ import { Row, Col, Container } from "react-bootstrap";
 import './team.css';
 
 //import image assets
-// import CEOImage from '../../assets/team/about.gif';
+import ooz from '../../assets/team/theteam/ooz.png';
+import anthony from '../../assets/team/theteam/anthony.jpeg';
+import davon from '../../assets/team/theteam/davon.jpeg';
+import hamza from '../../assets/team/theteam/hamza.jpeg';
+import kev from '../../assets/team/theteam/kev.png';
+import ricky from '../../assets/team/theteam/ricky.png';
+import marketing from '../../assets/team/theteam/marketing.png';
 // import CTOImage from '../../assets/team/about.gif';
 // import CMOImage from '../../assets/team/about.gif';
 // import CFOImage from '../../assets/team/about.gif'
@@ -19,44 +25,44 @@ class Team extends React.Component {
         this.state = {
             teams: [
                 {
-                    image: "https://seanpen00.github.io/NFTLottery/static/media/thegif.9aed54cd.gif",
+                    image: ooz,
                     title: 'Ideator',
-                    name: "Brandom (ooZ)"
+                    name: "Brandon (ooZ)"
                 },
                 {
-                    image: "https://seanpen00.github.io/NFTLottery/static/media/thegif.9aed54cd.gif",
-                    title: 'Marketing',
+                    image: marketing,
+                    title: 'Marketing Team',
                     name: "Chris & Brando"
                 },
                 {
-                    image: "https://seanpen00.github.io/NFTLottery/static/media/thegif.9aed54cd.gif",
+                    image: "https://seanpen.com/nft/1.png",
                     title: 'Smart Contract',
                     name: "Sean"
                 },
                 {
-                    image: "https://seanpen00.github.io/NFTLottery/static/media/thegif.9aed54cd.gif",
+                    image: hamza,
                     title: 'Smart Contract',
                     name: "Hamza"
                 }, 
                 {
-                    image: "https://seanpen00.github.io/NFTLottery/static/media/thegif.9aed54cd.gif",
+                    image: anthony,
                     title: 'Community Manager',
                     name: "Anthony"
                 },
                 {
-                    image: "https://seanpen00.github.io/NFTLottery/static/media/thegif.9aed54cd.gif",
+                    image: davon,
                     title: 'Community Manager',
-                    name: "Alex"
+                    name: "Davon"
                 },
                 {
-                    image: "https://seanpen00.github.io/NFTLottery/static/media/thegif.9aed54cd.gif",
+                    image: ricky,
                     title: 'Community Manager',
-                    name: "Ricardo"
+                    name: "Ricky"
                 }, 
                 {
-                    image: "https://seanpen00.github.io/NFTLottery/static/media/thegif.9aed54cd.gif",
+                    image: kev,
                     title: 'Community Manager',
-                    name: "Nick"
+                    name: "Kev"
                 }
             ]
         }
@@ -119,7 +125,7 @@ class Team extends React.Component {
                                 name={this.state.teams[6].name}
                             />
                         </Col>
-                        <Col className="" md={4} xs={12} >
+                        <Col className="team-control-card" md={4} xs={12} >
                             <TeamMember
                                 imageUrl={this.state.teams[7].image}
                                 title={this.state.teams[7].title}
