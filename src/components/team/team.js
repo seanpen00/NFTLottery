@@ -12,6 +12,7 @@ import hamza from '../../assets/team/theteam/hamza.jpeg';
 import kev from '../../assets/team/theteam/kev.png';
 import ricky from '../../assets/team/theteam/ricky.png';
 import marketing from '../../assets/team/theteam/marketing.png';
+import chris from '../../assets/team/theteam/chris.png';
 // import CTOImage from '../../assets/team/about.gif';
 // import CMOImage from '../../assets/team/about.gif';
 // import CFOImage from '../../assets/team/about.gif'
@@ -27,21 +28,22 @@ class Team extends React.Component {
                 {
                     image: ooz,
                     title: 'Ideator',
+                    title2:"Author of Prosperity with Ease: \"Simplified Advancements Towards Success\"",
                     name: "Brandon (ooZ)"
                 },
                 {
-                    image: marketing,
+                    image: chris,
                     title: 'Marketing Team',
                     name: "Chris & Brando"
                 },
                 {
                     image: "https://seanpen.com/nft/1.png",
-                    title: 'Smart Contract',
+                    title: 'Smart Contract Developer',
                     name: "Sean"
                 },
                 {
                     image: hamza,
-                    title: 'Smart Contract',
+                    title: 'Smart Contract Developer',
                     name: "Hamza"
                 }, 
                 {
@@ -78,6 +80,7 @@ class Team extends React.Component {
                             <TeamMember
                                 imageUrl={this.state.teams[0].image}
                                 title={this.state.teams[0].title}
+                                title2={this.state.teams[0].title2}
                                 name={this.state.teams[0].name}
                             />
                         </Col>

@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/NFTLottery/static/css/main.fbb0155b.chunk.css",
-    "main.js": "/NFTLottery/static/js/main.fef60062.chunk.js",
-    "main.js.map": "/NFTLottery/static/js/main.fef60062.chunk.js.map",
+    "main.js": "/NFTLottery/static/js/main.6fadc953.chunk.js",
+    "main.js.map": "/NFTLottery/static/js/main.6fadc953.chunk.js.map",
     "runtime-main.js": "/NFTLottery/static/js/runtime-main.63a5b215.js",
     "runtime-main.js.map": "/NFTLottery/static/js/runtime-main.63a5b215.js.map",
     "static/css/2.71f93bf9.chunk.css": "/NFTLottery/static/css/2.71f93bf9.chunk.css",
@@ -35,6 +35,7 @@
     "static/media/boy7.c23e0282.png": "/NFTLottery/static/media/boy7.c23e0282.png",
     "static/media/boy8.f856fbec.png": "/NFTLottery/static/media/boy8.f856fbec.png",
     "static/media/boy9.deb6c98b.png": "/NFTLottery/static/media/boy9.deb6c98b.png",
+    "static/media/chris.52a9740b.png": "/NFTLottery/static/media/chris.52a9740b.png",
     "static/media/davon.dcc0ab74.jpeg": "/NFTLottery/static/media/davon.dcc0ab74.jpeg",
     "static/media/dicklogo.9f1ffd25.png": "/NFTLottery/static/media/dicklogo.9f1ffd25.png",
     "static/media/fire.9e50bd20.png": "/NFTLottery/static/media/fire.9e50bd20.png",
@@ -42,11 +43,11 @@
     "static/media/item1.9e50bd20.png": "/NFTLottery/static/media/item1.9e50bd20.png",
     "static/media/item2.9e50bd20.png": "/NFTLottery/static/media/item2.9e50bd20.png",
     "static/media/item3.9e50bd20.png": "/NFTLottery/static/media/item3.9e50bd20.png",
-    "static/media/kev.d0740bc8.png": "/NFTLottery/static/media/kev.d0740bc8.png",
+    "static/media/kev.1f097ca2.png": "/NFTLottery/static/media/kev.1f097ca2.png",
     "static/media/marketing.e3c315ed.png": "/NFTLottery/static/media/marketing.e3c315ed.png",
     "static/media/newteamMember.css": "/NFTLottery/static/media/newfont.7c5dab01.ttf",
     "static/media/nftlottoimage.5370a4ae.png": "/NFTLottery/static/media/nftlottoimage.5370a4ae.png",
-    "static/media/ooz.bdd63566.png": "/NFTLottery/static/media/ooz.bdd63566.png",
+    "static/media/ooz.ab57223b.png": "/NFTLottery/static/media/ooz.ab57223b.png",
     "static/media/owl.b740aad4.png": "/NFTLottery/static/media/owl.b740aad4.png",
     "static/media/ricky.65cd4e26.png": "/NFTLottery/static/media/ricky.65cd4e26.png",
     "static/media/thegif.9aed54cd.gif": "/NFTLottery/static/media/thegif.9aed54cd.gif"
@@ -56,6 +57,6 @@
     "static/css/2.71f93bf9.chunk.css",
     "static/js/2.99ec57e2.chunk.js",
     "static/css/main.fbb0155b.chunk.css",
-    "static/js/main.fef60062.chunk.js"
+    "static/js/main.6fadc953.chunk.js"
   ]
 }
