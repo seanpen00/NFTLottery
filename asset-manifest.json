@@ -1,24 +1,23 @@
 {
   "files": {
-    "main.css": "/NFTLottery/static/css/main.fbb0155b.chunk.css",
-    "main.js": "/NFTLottery/static/js/main.6fadc953.chunk.js",
-    "main.js.map": "/NFTLottery/static/js/main.6fadc953.chunk.js.map",
+    "main.css": "/NFTLottery/static/css/main.33586cbd.chunk.css",
+    "main.js": "/NFTLottery/static/js/main.cd1615d4.chunk.js",
+    "main.js.map": "/NFTLottery/static/js/main.cd1615d4.chunk.js.map",
     "runtime-main.js": "/NFTLottery/static/js/runtime-main.63a5b215.js",
     "runtime-main.js.map": "/NFTLottery/static/js/runtime-main.63a5b215.js.map",
     "static/css/2.71f93bf9.chunk.css": "/NFTLottery/static/css/2.71f93bf9.chunk.css",
-    "static/js/2.99ec57e2.chunk.js": "/NFTLottery/static/js/2.99ec57e2.chunk.js",
-    "static/js/2.99ec57e2.chunk.js.map": "/NFTLottery/static/js/2.99ec57e2.chunk.js.map",
+    "static/js/2.38d99a90.chunk.js": "/NFTLottery/static/js/2.38d99a90.chunk.js",
+    "static/js/2.38d99a90.chunk.js.map": "/NFTLottery/static/js/2.38d99a90.chunk.js.map",
     "static/js/3.f7b976ef.chunk.js": "/NFTLottery/static/js/3.f7b976ef.chunk.js",
     "static/js/3.f7b976ef.chunk.js.map": "/NFTLottery/static/js/3.f7b976ef.chunk.js.map",
     "index.html": "/NFTLottery/index.html",
     "static/css/2.71f93bf9.chunk.css.map": "/NFTLottery/static/css/2.71f93bf9.chunk.css.map",
-    "static/css/main.fbb0155b.chunk.css.map": "/NFTLottery/static/css/main.fbb0155b.chunk.css.map",
-    "static/js/2.99ec57e2.chunk.js.LICENSE.txt": "/NFTLottery/static/js/2.99ec57e2.chunk.js.LICENSE.txt",
+    "static/css/main.33586cbd.chunk.css.map": "/NFTLottery/static/css/main.33586cbd.chunk.css.map",
+    "static/js/2.38d99a90.chunk.js.LICENSE.txt": "/NFTLottery/static/js/2.38d99a90.chunk.js.LICENSE.txt",
     "static/media/Chibi Labs.1df3a3d3.jpeg": "/NFTLottery/static/media/Chibi Labs.1df3a3d3.jpeg",
     "static/media/Collection_GIF.c7a8697a.gif": "/NFTLottery/static/media/Collection_GIF.c7a8697a.gif",
     "static/media/join-community.css": "/NFTLottery/static/media/DickPix.be6bd296.png",
     "static/media/OPENSEA_Banner.fe2f5e97.png": "/NFTLottery/static/media/OPENSEA_Banner.fe2f5e97.png",
-    "static/media/faqmapitem.css": "/NFTLottery/static/media/Poppins-ExtraLight.98f8a451.ttf",
     "static/media/about.css": "/NFTLottery/static/media/ReporterRegular.d804114c.ttf",
     "static/media/Roadmap.7d8c759b.mp4": "/NFTLottery/static/media/Roadmap.7d8c759b.mp4",
     "static/media/faqmap.css": "/NFTLottery/static/media/StrangerThings-Regular.20413700.ttf",
@@ -40,6 +39,7 @@
     "static/media/dicklogo.9f1ffd25.png": "/NFTLottery/static/media/dicklogo.9f1ffd25.png",
     "static/media/fire.9e50bd20.png": "/NFTLottery/static/media/fire.9e50bd20.png",
     "static/media/hamza.dded1624.jpeg": "/NFTLottery/static/media/hamza.dded1624.jpeg",
+    "static/media/faqmapitem.css": "/NFTLottery/static/media/impact.0294f828.ttf",
     "static/media/item1.9e50bd20.png": "/NFTLottery/static/media/item1.9e50bd20.png",
     "static/media/item2.9e50bd20.png": "/NFTLottery/static/media/item2.9e50bd20.png",
     "static/media/item3.9e50bd20.png": "/NFTLottery/static/media/item3.9e50bd20.png",
@@ -55,8 +55,8 @@
   "entrypoints": [
     "static/js/runtime-main.63a5b215.js",
     "static/css/2.71f93bf9.chunk.css",
-    "static/js/2.99ec57e2.chunk.js",
-    "static/css/main.fbb0155b.chunk.css",
-    "static/js/main.6fadc953.chunk.js"
+    "static/js/2.38d99a90.chunk.js",
+    "static/css/main.33586cbd.chunk.css",
+    "static/js/main.cd1615d4.chunk.js"
   ]
 }

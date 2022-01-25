@@ -103,7 +103,7 @@ class Header extends React.Component {
                       }}
                       target="_blank"
                       rel="noopener noreferrer"
-                      href="www.Twitter.com/TheNFTLottery"
+                      href="https://www.Twitter.com/TheNFTLottery/"
                     >
                       {" "}
                       <BsTwitter size={32} />{" "}

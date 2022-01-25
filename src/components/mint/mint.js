@@ -86,14 +86,10 @@ function Mint() {
                     {/* <header><text style={{ color: "#E8B331" }}><br/></text>
                     </header> */}
                     <p style={{ textAlign: "center" }}>
-                        <text style={{fontFamily: "casinofont", fontSize: 80}}>MINT NOW!</text>
-                        {/* <text style={{fontWeight: "bold"}}>
-                                <a style={{textDecoration: "none", color: "white", fontWeight: 900, fontSize: 20}}href="https://instagram.com/dickpixnft"> Instagram </a>
-                            </text> 
-                            and 
-                            <text style={{fontWeight: "bold"}}>
-                                <a style={{textDecoration: "none", color: "white", fontWeight: 900, fontSize: 20}}href="https://twitter.com/thedickpixnft"> Twitter!</a>
-                            </text> */}
+                        <text style={{fontFamily: "casinofont", fontSize: 80}}>MINT NOW!</text><br/>
+                        <text style={{fontWeight: "bold"}}>
+                            Mint your official The NFT Lottery VIP Pass now!
+                            </text>
                     </p>
                     <div className='number-control'>
                         <BsFileMinusFill color='white' size={40} onClick={() => minus_num()} />

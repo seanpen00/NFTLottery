@@ -20,10 +20,10 @@ class RoadMap extends React.Component {
           title: "Project Launch",
           content: "- Giveaways & Partnerships",
           content2: "- VIP Pass launch on Ethereum",
-          content3: "- Snapshot voting integration",
-          content4:
-            "10 lucky winners of 1 ETH each will be rewarded during the minting process. The 1 ETH rewards will be given to the original original wallets of mint numbers: #1000, #2000, #3000, #4000, #5000, #6000, #7000, #8000, #9000, #10000 (*Must be Metamask*)",
-          content5: "Lucky mint number #7777 will be rewarded 2 ETH.",
+          content5: "- Snapshot voting integration",
+          content3:
+            "- 10 lucky winners of 1 ETH each will be rewarded during the minting process. The 1 ETH rewards will be given to the original wallets of mint numbers: #1000, #2000, #3000, #4000, #5000, #6000, #7000, #8000, #9000, #10000 (*Must be Metamask*)",
+          content4: "- Lucky mint number #7777 will be rewarded 2 ETH.",
         },
         {
           tag: "Phase 2",

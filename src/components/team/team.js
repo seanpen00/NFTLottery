@@ -27,14 +27,13 @@ class Team extends React.Component {
             teams: [
                 {
                     image: ooz,
-                    title: 'Ideator',
-                    title2:"Author of Prosperity with Ease: \"Simplified Advancements Towards Success\"",
-                    name: "Brandon (ooZ)"
+                    title: 'Founder',
+                    name: "ooZ"
                 },
                 {
                     image: chris,
-                    title: 'Marketing Team',
-                    name: "Chris & Brando"
+                    title: 'Marketing Manager',
+                    name: "Brando"
                 },
                 {
                     image: "https://seanpen.com/nft/1.png",
